@@ -1,8 +1,9 @@
-
 import os
 import requests
+from dotenv import load_dotenv  # 👈 add this
 
 OTX_BASE = "https://otx.alienvault.com/api/v1"
+load_dotenv()
 
 class OTXClient:
     def __init__(self, api_key=None, session=None):
