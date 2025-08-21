@@ -1,6 +1,6 @@
 import os
 import requests
-from dotenv import load_dotenv  # 👈 add this
+from dotenv import load_dotenv 
 
 OTX_BASE = "https://otx.alienvault.com/api/v1"
 load_dotenv()
